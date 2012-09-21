@@ -1,6 +1,7 @@
 require 'test_helper'
 require 'rails/generators'
 require 'rails/generators/test_case'
+require 'rails/generators/mongo_mapper/config/config_generator'
 require 'rails/generators/mongo_mapper/model/model_generator'
 
 class ConfigGeneratorTest < Rails::Generators::TestCase
