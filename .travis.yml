@@ -11,3 +11,4 @@ notifications:
   email: false
 bundler_args: --without development
 services: mongodb
+script: "bundle exec rake --trace"
